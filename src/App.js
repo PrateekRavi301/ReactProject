@@ -1,4 +1,4 @@
-import logo from './logo.svg';
+import logo from './card.jpg';
 import './App.css';
 
 function App() {
@@ -15,9 +15,13 @@ function App() {
           target="_blank"
           rel="noopener noreferrer"
         >
-          Learn React
+          Learn React ok
         </a>
+        
       </header>
+      <div>
+      <img src={logo} alt = "card " />
+      </div>
     </div>
   );
 }
